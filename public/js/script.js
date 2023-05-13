@@ -15,7 +15,7 @@ function start() {
         //err => console.error(err)
     //)
     
-    video.src = '../videos/year.mp4'
+    video.src = '../videos/frnds.mp4'
     console.log('video added')
     recognizeFaces()
 }
