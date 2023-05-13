@@ -15,7 +15,7 @@ function start() {
         //err => console.error(err)
     //)
     
-    video.src = '../videos/frnds.mp4'
+    video.src = '../videos/Year.mp4'
     console.log('video added')
     recognizeFaces()
 }
@@ -61,8 +61,8 @@ async function recognizeFaces() {
 
 
 function loadLabeledImages() {
-    //const labels = ['Black Widow', 'Captain America', 'Hawkeye' , 'Jim Rhodes', 'Tony Stark', 'Thor', 'Captain Marvel']
-    const labels = ['Nagarjuna', 'Riyaz', 'venkat', 'vishnu', 'teja']                                                             // for WebCam
+    const labels = ['Black Widow', 'Captain America', 'Hawkeye' , 'Jim Rhodes', 'Tony Stark', 'Thor', 'Captain Marvel']
+    //const labels = ['Nagarjuna', 'Riyaz', 'venkat', 'vishnu', 'teja']                                                             // for WebCam
     return Promise.all(
         labels.map(async (label)=>{
             const descriptions = []
